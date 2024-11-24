@@ -1,0 +1,17 @@
+version: "3"
+services:
+  atmacup_18:
+    build: .
+    shm_size: '64gb'
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    image: kaggle
+    volumes:
+      - .:/kaggle
+    ports:
+      - 8090:22

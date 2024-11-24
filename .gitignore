@@ -1,0 +1,12 @@
+input/**
+
+*.npy
+*.pth
+*.h5
+
+__pycache__
+kaggle.json
+reference
+
+outputs
+tmp

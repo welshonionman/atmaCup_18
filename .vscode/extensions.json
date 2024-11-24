@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff",
+        "anysphere.pyright",
+        "ms-toolsai.datawrangler",
+        "mechatroner.rainbow-csv",
+        "tamasfe.even-better-toml",
+        "bierner.markdown-preview-github-styles",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+    ]
+}
